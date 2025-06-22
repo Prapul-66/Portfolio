@@ -1,0 +1,79 @@
+.contact-section {
+  background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+  padding: 100px 30px;
+  text-align: center;
+}
+
+.contact-container {
+  background: linear-gradient(to bottom right, #222, #151515);
+  backdrop-filter: blur(8px);
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border-radius: 16px;
+  box-shadow: 0 16px 30px rgba(255, 255, 255, 0.06);
+  animation: fadeIn 0.8s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 35px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.1rem;
+  color: #e2e8f0;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+}
+
+.contact-item .icon {
+  font-size: 22px;
+  color: #ff6b81;
+}
+
+.contact-item a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-item a:hover {
+  color: #81d4fa;
+  text-decoration: underline;
+}
+
+/* Optional fade animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

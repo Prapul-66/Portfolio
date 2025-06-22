@@ -1,0 +1,118 @@
+.projects {
+  padding: 100px 50px;
+  background: linear-gradient(135deg, #141414, #1e1e1e); /* Darker, deeper gradient */
+  position: relative;
+  overflow: hidden;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #fff;
+  font-weight: 800;
+  position: relative;
+  letter-spacing: 1.5px;
+}
+
+.projects h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #ff6b81, #fcb045); /* pink to orange */
+  display: block;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.project__card {
+  background: linear-gradient(to bottom right, #2d2d2d, #1a1a1a);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: fadeInUp 0.8s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  position: relative;
+  overflow: hidden;
+}
+
+.project__card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at top left, #ff6b81, transparent 50%);
+  opacity: 0.06;
+  pointer-events: none;
+  transform: rotate(25deg);
+}
+
+.project__card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.08);
+}
+
+.project__card h3 {
+  font-size: 1.6rem;
+  color: #ffb347;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.project__card p {
+  font-size: 1.05rem;
+  color: #e0e0e0;
+  margin-bottom: 22px;
+  line-height: 1.75;
+}
+
+.project__links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #4fc3f7;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.project__links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #4fc3f7;
+  transition: width 0.3s ease;
+}
+
+.project__links a:hover {
+  color: #81d4fa;
+}
+
+.project__links a:hover::after {
+  width: 100%;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
