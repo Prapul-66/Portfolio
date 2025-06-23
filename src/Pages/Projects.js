@@ -4,18 +4,18 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
+      title: "Fullstack Mastery",
+      description:
+        "A frontend-only learning platform built with React and plain JavaScript. Includes multiple pages using React Router and structured content for full-stack development learning.",
+      tech: "React, React Router, JavaScript, CSS",
+      github: "https://github.com/Prapul-66/Fullstack-Mastery",
+    },
+    {
       title: "News App",
       description:
         "A clean news application built using React.js, fetching live news using an API with category filtering.",
       tech: "React.js, News API",
       github: "https://github.com/Prapul-66/News-App",
-    },
-    {
-      title: "TextConverter",
-      description:
-        "An app to convert, manipulate, and analyze text content with options like case change, word count, and removal of extra spaces.",
-      tech: "React.js",
-      github: "https://github.com/Prapul-66/my-app",
     },
     {
       title: "Restaurant App",
