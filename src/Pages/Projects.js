@@ -20,9 +20,16 @@ const Projects = () => {
     {
       title: "Restaurant App",
       description:
-        "A MERN stack restaurant application with a modern UI, reservation form, and team showcase. Includes both frontend and backend features.",
-      tech: "MongoDB, Express.js, React.js, Node.js",
+        "A MERN stack restaurant website with a modern UI, reservation form, and team showcase. Mainly focuses on frontend with design and layout.",
+      tech: "React.js, CSS",
       github: "https://github.com/Prapul-66/Restaurant-App",
+    },
+    {
+      title: "DishDrive",
+      description:
+        "A full-stack food delivery platform inspired by Swiggy, built using the MERN stack. DishDrive allows vendors to register, manage their accounts securely using JWT authentication and password hashing, and enables seamless backend handling of restaurant and order-related data. Frontend under development with a focus on responsive user experience and real-time order interaction.",
+      tech: "MongoDB, Express.js, React.js, Node.js (MERN Stack)",
+      github: "https://github.com/Prapul-66/Backend",
     },
   ];
 
