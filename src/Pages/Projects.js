@@ -44,7 +44,7 @@ const Projects = () => {
       icon: "🍽️",
       description:
         "A MERN stack restaurant website with a modern UI, reservation form, and team showcase. Mainly focuses on frontend with design and layout.",
-      tech: "HTML, CSS, JavaScript, React",
+      tech: "HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB",
       github: "https://github.com/Prapul-66/Restaurant-App",
     },
     {
