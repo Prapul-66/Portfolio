@@ -1,52 +1,89 @@
 .about {
   padding: 100px 50px;
-  background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+  background: linear-gradient(145deg, #121212, #1f1f1f);
   position: relative;
   overflow: hidden;
+  z-index: 1;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -25%;
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(circle, rgba(255, 107, 129, 0.05), transparent 70%);
+  animation: aboutPulse 10s infinite alternate;
+  pointer-events: none;
+  z-index: 0;
+  transform: rotate(30deg);
+}
+
+@keyframes aboutPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.04;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0.09;
+  }
 }
 
 .about h2 {
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
   position: relative;
-  font-weight: 800;
-  letter-spacing: 1px;
+  z-index: 2;
 }
 
 .about h2::after {
   content: '';
   display: block;
-  width: 60px;
+  width: 70px;
   height: 4px;
-  background: #ff6b81;
-  margin: 12px auto 0;
-  border-radius: 2px;
+  background: linear-gradient(to right, #ff6b81, #ffb347);
+  margin: 14px auto 0;
+  border-radius: 4px;
+  animation: glowBar 2s infinite alternate ease-in-out;
+}
+
+@keyframes glowBar {
+  0% { width: 60px; opacity: 0.7; }
+  100% { width: 90px; opacity: 1; }
 }
 
 .about__content {
-  max-width: 900px;
+  max-width: 920px;
   margin: auto;
-  background: #111111;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(255, 255, 255, 0.05);
   font-size: 1.15rem;
-  line-height: 1.8;
-  color: #d1d1d1;
+  line-height: 1.85;
+  color: #dddddd;
   text-align: justify;
   animation: fadeInUp 1s ease-in-out;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: background 0.3s ease;
+  transition: all 0.35s ease;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  position: relative;
 }
 
 .about__content:hover {
-  background: #1a1a1a;
-  box-shadow: 0 30px 60px rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+  transform: scale(1.01);
+  box-shadow: 0 30px 80px rgba(255, 255, 255, 0.1);
 }
 
-/* Animation */
+/* Fade-in animation */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
