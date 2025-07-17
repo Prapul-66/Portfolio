@@ -51,9 +51,9 @@ const Projects = () => {
       title: "DishDrive",
       icon: "🚗",
       description:
-        "A full-stack food delivery platform inspired by Swiggy, built using the MERN stack. DishDrive allows vendors to register, manage their accounts securely using JWT authentication and password hashing, and enables seamless backend handling of restaurant and order-related data. Frontend under development with a focus on responsive user experience and real-time order interaction.",
+        "A full-stack food vendor management platform built using the MERN stack. DishDrive allows vendors to register, manage their accounts securely using JWT and bcrypt, upload products with images, and handle firm-specific data. Features a clean dashboard UI and custom API integration.",
       tech: "HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB",
-      github: "https://github.com/Prapul-66/Backend",
+      github: "https://github.com/Prapul-66/DishDrive-Vendor-Dashboard",
     },
   ];
 
