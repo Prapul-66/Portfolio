@@ -9,6 +9,7 @@ import nodejs from '../images/Nodejs.png';
 import express from '../images/expressjs.png';
 import python from '../images/python.png';
 import mongodb from '../images/mongodb.png';
+import SQL from '../images/SQL.png';
 import git from '../images/git.png';
 
 const skills = [
@@ -19,6 +20,7 @@ const skills = [
   { name: 'Node.js', img: nodejs },
   { name: 'Express.js', img: express },
   { name: 'MongoDB', img: mongodb },
+  { name: 'SQL', img: SQL },
   { name: 'Python', img: python },
   { name: 'Git', img: git },
 ];
