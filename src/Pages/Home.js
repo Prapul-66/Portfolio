@@ -8,11 +8,12 @@ const Home = () => {
     <section id="home" className="home">
       <div className="home__content">
         <h1>Hi, I'm Namilakonda Sai Prapul</h1>
-        <h2>MERN Stack Developer</h2>
+        <h2>Full Stack Developer</h2>
         <p>
-          I'm passionate about building scalable web applications and solving
-          real-world problems using the MERN stack. I enjoy creating clean UIs
-          and writing efficient backend logic.
+          I'm a Full Stack Developer who enjoys building dynamic and responsive
+          web applications. I focus on creating clean user interfaces, efficient
+          backend logic, and delivering seamless digital experiences that solve
+          real-world problems.
         </p>
         <a href="#projects" className="home__cta">View My Work</a>
       </div>

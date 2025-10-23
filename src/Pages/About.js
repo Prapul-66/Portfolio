@@ -7,12 +7,11 @@ const About = () => {
       <h2>About Me</h2>
       <div className="about__content">
         <p>
-          Hello! I'm <strong>Namilakonda Sai Prapul</strong>, a passionate MERN stack developer currently pursuing B.Tech at Parul University. 
-          I love building responsive web applications that solve real-world problems. My goal is to create clean, fast, and accessible websites 
-          with a great user experience.
+          Hi, I'm <strong>Namilakonda Sai Prapul</strong>, a Full Stack Developer and B.Tech student at Parul University.
+          I enjoy building modern, responsive web applications and turning ideas into functional digital experiences.
         </p>
         <p>
-          I enjoy learning new technologies and collaborating with others on exciting projects. My strengths include frontend design, backend logic, and database handling.
+          I’m always eager to learn new technologies and improve my skills in both frontend and backend development.
         </p>
       </div>
     </section>
