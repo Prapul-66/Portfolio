@@ -52,7 +52,7 @@ const Contact = () => {
           <div className="contact-item">
             <FaLinkedin className="icon" />
             <a
-              href="https://linkedin.com/in/sai-prapul"
+              href="https://www.linkedin.com/in/sai-prapul-131997285/"
               target="_blank"
               rel="noreferrer"
             >
