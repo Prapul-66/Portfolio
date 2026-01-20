@@ -122,3 +122,89 @@
     transform: scale(1) translateY(0);
   }
 }
+/* ===============================
+   CONTACT SECTION RESPONSIVE
+   =============================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 70px 24px;
+  }
+
+  .contact-container {
+    padding: 50px 25px;
+    max-width: 95%;
+  }
+
+  .contact-title {
+    font-size: 2.2rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .contact-item {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .contact-item .icon {
+    font-size: 22px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 60px 18px;
+  }
+
+  .contact-container {
+    padding: 40px 20px;
+  }
+
+  .contact-title {
+    font-size: 1.9rem;
+  }
+
+  .contact-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+
+  .contact-item {
+    font-size: 0.95rem;
+    gap: 10px;
+    padding: 6px 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contact-item .icon {
+    font-size: 20px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .contact-title {
+    font-size: 1.7rem;
+  }
+
+  .contact-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .contact-container {
+    padding: 30px 14px;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+    padding: 5px 12px;
+  }
+}

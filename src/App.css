@@ -1,15 +1,41 @@
+/* ===== GLOBAL RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ===== ROOT ===== */
+html,
 body {
+  width: 100%;
+  overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
-  color: #222;
+  background-color: #000;
+  color: #fff;
 }
 
+/* ===== APP ===== */
 .app {
-  text-align: center;
+  width: 100%;
+}
+
+/* ===== IMAGE SAFETY ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== SECTION SAFETY ===== */
+section {
+  width: 100%;
+}
+
+/* ===== SMALL DEVICES ===== */
+@media (max-width: 480px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

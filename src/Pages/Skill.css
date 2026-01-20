@@ -135,3 +135,73 @@
     transform: translateY(0);
   }
 }
+/* ===============================
+   SKILLS RESPONSIVE FIX
+   =============================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .skill-section {
+    padding: 70px 24px;
+  }
+
+  .skill-title {
+    font-size: 2.3rem;
+    margin-bottom: 50px;
+  }
+
+  .skill-grid {
+    gap: 32px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .skill-section {
+    padding: 60px 18px;
+  }
+
+  .skill-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .skill-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .skill-card {
+    padding: 22px 16px;
+  }
+
+  .skill-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+
+  /* Disable hover lift on touch devices */
+  .skill-card:hover {
+    transform: none;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .skill-title {
+    font-size: 1.8rem;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 20px 14px;
+  }
+}

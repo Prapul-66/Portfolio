@@ -7,7 +7,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="about__content">
         <p>
-          Hi, I'm <strong>Namilakonda Sai Prapul</strong>, a Full Stack Developer and B.Tech student at Parul University.
+          Hi, I'm <strong>Namilakonda Sai Prapul</strong>, a <strong>MERN Stack Developer</strong> and B.Tech student at Parul University.
           I enjoy building modern, responsive web applications and turning ideas into functional digital experiences.
         </p>
         <p>

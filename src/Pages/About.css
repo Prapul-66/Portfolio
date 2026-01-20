@@ -94,3 +94,110 @@
     transform: translateY(0);
   }
 }
+/* ===========================
+   MOBILE RESPONSIVE FIXES
+   =========================== */
+
+/* Tablets & below */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 24px;
+    gap: 40px;
+  }
+
+  .home__content {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .home__content h1 {
+    font-size: 2.6rem;
+  }
+
+  .home__content h2 {
+    font-size: 1.6rem;
+  }
+
+  .home__content p {
+    font-size: 1.05rem;
+  }
+
+  .home__image img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .about {
+    padding: 70px 24px;
+  }
+
+  .about h2 {
+    font-size: 2.2rem;
+  }
+
+  .about__content {
+    padding: 30px;
+    font-size: 1.05rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .home {
+    padding: 60px 18px;
+  }
+
+  .home__content h1 {
+    font-size: 2.1rem;
+  }
+
+  .home__content h2 {
+    font-size: 1.4rem;
+  }
+
+  .home__content p {
+    font-size: 0.95rem;
+  }
+
+  .home__cta {
+    padding: 12px 26px;
+    font-size: 0.95rem;
+  }
+
+  .home__image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about {
+    padding: 60px 18px;
+  }
+
+  .about h2 {
+    font-size: 1.9rem;
+  }
+
+  .about__content {
+    padding: 22px;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .home__content h1 {
+    font-size: 1.8rem;
+  }
+
+  .home__content h2 {
+    font-size: 1.2rem;
+  }
+
+  .home__image img {
+    width: 190px;
+    height: 190px;
+  }
+}

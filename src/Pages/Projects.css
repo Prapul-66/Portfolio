@@ -183,3 +183,94 @@
   transform: scale(1.06) rotate(-1deg);
   box-shadow: 0 8px 30px rgba(252, 176, 69, 0.4);
 }
+/* ===============================
+   PROJECTS RESPONSIVE FIX
+   =============================== */
+
+/* Tablets & below */
+@media (max-width: 768px) {
+  .projects {
+    padding: 70px 24px;
+  }
+
+  .projects h2 {
+    font-size: 2.3rem;
+    margin-bottom: 50px;
+  }
+
+  .projects__container {
+    gap: 28px;
+  }
+
+  .project__card {
+    padding: 26px;
+  }
+
+  .project__card h3 {
+    font-size: 1.5rem;
+  }
+
+  .project__card p {
+    font-size: 1rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .projects {
+    padding: 60px 18px;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .projects__container {
+    grid-template-columns: 1fr; /* FORCE single column */
+    gap: 24px;
+  }
+
+  .project__card {
+    padding: 22px;
+  }
+
+  .project__icon {
+    font-size: 2.2rem;
+  }
+
+  .project__card h3 {
+    font-size: 1.35rem;
+  }
+
+  .project__card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .tech__chip {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+
+  .project__links a {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .projects h2 {
+    font-size: 1.8rem;
+  }
+
+  .project__card {
+    padding: 18px;
+  }
+
+  .project__card h3 {
+    font-size: 1.2rem;
+  }
+}
