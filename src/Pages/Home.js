@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
-
-const profilePic = "https://via.placeholder.com/300"; // online profile image
+import profilePic from "../images/prapul-image-ai.png";
 
 const Home = () => {
   return (
@@ -19,7 +18,7 @@ const Home = () => {
       </div>
 
       <div className="home__image">
-        <img src={profilePic} alt="Profile" />
+        <img src={profilePic} alt="Sai Prapul" />
       </div>
     </section>
   );
