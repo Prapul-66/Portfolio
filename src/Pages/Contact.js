@@ -15,13 +15,13 @@ const Contact = () => {
           {/* Location */}
           <div className="contact-item">
             <FaMapMarkerAlt className="icon" />
-            <a
-              href="https://www.google.com/maps?q=Vadodara,+Gujarat,+India"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Vadodara, Gujarat, India
-            </a>
+<a
+  href="https://www.google.com/maps?q=India"
+  target="_blank"
+  rel="noreferrer"
+>
+  India
+</a>
           </div>
 
           {/* Phone */}
