@@ -24,7 +24,7 @@ const techIcons = {
 const Projects = () => {
   const projects = [
     {
-      title: "Fullstack Mastery",
+      title: "CoreStack",
       icon: "🧠",
       description:
         "A frontend-only learning platform built with React and plain JavaScript. Includes multiple pages using React Router and structured content for full-stack development learning.",
@@ -32,7 +32,7 @@ const Projects = () => {
       github: "https://github.com/Prapul-66/Fullstack-Mastery",
     },
     {
-      title: "News App",
+      title: "NewsStream",
       icon: "📰",
       description:
         "A clean news application built using React.js, fetching live news using an API with category filtering.",
@@ -40,7 +40,7 @@ const Projects = () => {
       github: "https://github.com/Prapul-66/News-App",
     },
     {
-      title: "Restaurant App",
+      title: "DineFlow",
       icon: "🍽️",
       description:
         "A MERN stack restaurant website with a modern UI, reservation form, and team showcase. Mainly focuses on frontend with design and layout.",
@@ -48,7 +48,7 @@ const Projects = () => {
       github: "https://github.com/Prapul-66/Restaurant-App",
     },
     {
-      title: "DishDrive",
+      title: "VendorFlow",
       icon: "🚗",
       description:
         "A full-stack food vendor management platform built using the MERN stack. DishDrive allows vendors to register, manage their accounts securely using JWT and bcrypt, upload products with images, and handle firm-specific data. Features a clean dashboard UI and custom API integration.",
